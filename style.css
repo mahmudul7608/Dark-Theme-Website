@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #222;
-  color: #109bd7;
+  background-color: #616061;
 }
 
 .container {
@@ -45,11 +44,19 @@ body {
 }
 
 .navbar {
+  display: flex;
   background-color: #333;
   padding: 30px;
-  text-align: right;
+  justify-content: space-between;
 }
-
+.icon i {
+  font-size: 45px;
+  color: rgb(231, 230, 228);
+  margin: 0 10px;
+}
+.icon i:hover {
+  color: rgb(240, 23, 8);
+}
 .navbar ul {
   gap: 20px;
   list-style: none;
