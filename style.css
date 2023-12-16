@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #109bd7;
+}
+
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.header-image {
+  margin-top: 25px;
+  border-radius: 20px;
+  width: 100%;
+  height: 570px;
+}
+
+.header-info {
+  margin-top: 15%;
+}
+.header-info h1 {
+  font-size: 56px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #222;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cv-button:hover {
+  background-color: #4fa3d1;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 30px;
+  text-align: right;
+}
+
+.navbar ul {
+  gap: 20px;
+  list-style: none;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 30px;
+}
+
+.navbar a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar li a:hover {
+  color: blue;
+}
+.content {
+  padding: 50px 0;
+}
+
+.dark-theme {
+  background-color: #111;
+  color: #fff;
+}
+
+.dark-theme .navbar {
+  background-color: #444;
+}
+
+.dark-theme .navbar a {
+  color: #fff;
+}
+
+.dark-theme .cv-button {
+  background-color: #4fa3d1;
+}
